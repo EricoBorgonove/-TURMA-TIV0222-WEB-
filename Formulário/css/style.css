@@ -1,5 +1,44 @@
+/*.color1 { #e46424 };
+.color2 { #dc9c7c };
+.color3 { #045c9c };
+.color4 { #6a95b8 };
+.color5 { #7fa5bd };*/
+*{
+    text-decoration: none;
+    margin: 0;
+}
+footer{
+    background-color: #045c9c;
+    min-height: 200px;
+    color: #fff;
+}
+
+main{
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: rgba(127, 165, 189,0.3);
+}
+header{
+    background-color: rgba(228, 100, 36,0.5);
+    border-bottom: 2px solid gray;
+}
+
 .linhaBorda{
     margin: 5px;
     padding: 5px;
     border: 1px solid lightgray
+}
+#labelNome{
+    font-weight:600;
+}
+
+label{
+    color: blueviolet;
+}
+.corH1{
+    color: blue;
+    padding: 5px;
+}
+.centro{
+    text-align: center;
 }
