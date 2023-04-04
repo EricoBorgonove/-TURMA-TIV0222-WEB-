@@ -11,6 +11,7 @@ footer{
     background-color: #045c9c;
     min-height: 200px;
     color: #fff;
+    border-top: 3px solid gray;
 }
 
 main{
@@ -20,7 +21,7 @@ main{
 }
 header{
     background-color: rgba(228, 100, 36,0.5);
-    border-bottom: 2px solid gray;
+    border-bottom: 3px solid gray;
 }
 
 .linhaBorda{
@@ -41,4 +42,50 @@ label{
 }
 .centro{
     text-align: center;
+}
+.botao{
+    border: 1px solid #045c9c;
+    border-radius: 0px 7px 0px 7px;
+    padding: 5px;
+    background-color: #045c9c;
+    color: #fff;
+    font-weight: 400;
+}
+#linkPe{
+    display: flex;
+    justify-content: center;
+    margin: 5px 15px;
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 7px;
+    background-color: #6a95b8;
+    height: 50px;
+}
+.espaco{
+    margin-right: 5px;
+    max-height: 100%;
+}
+.botao:hover{
+    border-radius: 7px 0px 7px 0px;
+    background-color: transparent;
+    color: #045c9c;
+    
+}
+.imgLogo{
+    display: flex;
+    justify-content: start;
+    border-right: 2px solid gray;
+    border-top: 2px solid gray;
+    border-bottom: 3px solid gray;
+    margin: 5px 5px 5px none ;
+    border-radius: 0 30px 30px 0;
+    padding-right: 15px;
+    background-color: rgba(127, 165, 189,0.8);
+    width: 50px;
+
+}
+.imgLogo:hover{
+    justify-content: center;
+    width: 150px;
+
 }
