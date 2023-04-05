@@ -29,12 +29,12 @@ header{
     padding: 5px;
     border: 1px solid lightgray
 }
-#labelNome{
-    font-weight:600;
-}
+
 
 label{
-    color: blueviolet;
+    color: darkblue;
+    font-weight: 600;
+    padding: 0px 3px;
 }
 .corH1{
     color: blue;
@@ -88,4 +88,75 @@ label{
     justify-content: center;
     width: 150px;
 
+}
+.separacao{
+    padding-bottom: 5px;
+   
+}
+.botaoPesquisa{
+    border: 1px solid #e46424;
+    border-radius: 0px 7px 0px 7px;
+    background-color: #e46424;
+    color: #fff;
+    font-weight: 400;
+    padding: 5px;
+}
+.botaoPesquisa:hover{
+    background-color:  transparent;
+    color: #e46424;
+}
+.classDiv{
+    margin: 7px 10px;
+    
+}
+.classDivB{
+    margin: 5px 0px;
+    
+}
+.classBody{
+    margin: 0px 15px;
+}
+label, input, button, select{
+    font-size: 18px;
+}
+legend{
+    font-size: 22px;
+    color: darkblue;
+    font-weight: 600;
+}
+input[type="radio"]{
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid #e46424;
+    border-radius: 10px;
+    width: 14px;
+    height: 14px;
+    margin: 0px 2px;
+}
+input[type="radio"]:checked{
+    background-color: #e46424;
+    border-color: white;
+}
+input, select{
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid  darkgray;
+    color: darkblue;
+    font-size: 16px;
+    padding: 1px;
+}
+input:disabled{
+    background-color: lightgray;
+}
+input[type="text"]:focus  {
+    zoom: 1.1;
+    border-radius: 3px;
+}
+input[type="number"]:focus{
+    zoom: 1.1;
+    border-radius: 3px;
+}
+input[type="password"]:focus{
+    zoom: 1.1;
+    border-radius: 3px;
 }

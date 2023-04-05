@@ -15,94 +15,135 @@
     <header>
         <nav>
             <div class="imgLogo">
-  <a href="/index.html"><img  src="/images/CENTEC_Logo parcial.png" height="60px" alt="logo centec"></a>
+                <a href="/index.html"><img src="/images/CENTEC_Logo parcial.png" height="60px" alt="logo centec"></a>
             </div>
-            
+
             <a href="/pages/cadastro.html"><img src="/images/cadastro.png" height="20px"
                     alt="monitor com papel na frente"></a>
         </nav>
-        
+
     </header>
-    <main>
+    <main >
         <div class="centro ">
             <h1 class="corH1">Cadastro de Novos Alunos</h1>
         </div>
-        
+
         <hr>
 
-        <form>
-            <fieldset>
-                <legend>Dados Pessoais</legend>
-                <div class="linhaBorda">
-                    <label for="" id="labelNome">Nome: </label>
-                    <input type="text" placeholder="Digite seu nome">
-                    <label for="" >Sobrenome: </label>
-                    <input type="text" placeholder="Digite seu Sobrenome">
+        <div class="classBody">
+
+            <form class="separacao">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div class="classDiv">
+                        <label for="" id="labelNome">Nome: </label>
+                        <input type="text" placeholder="Digite seu nome">
+                        <label for="">Sobrenome: </label>
+                        <input type="text" placeholder="Digite seu Sobrenome">
+                    </div>
+                    <div class="classDiv">
+                        <label for="">Gênero: </label>
+                        <input type="radio" name="genero"> <label for="">Masculino</label>
+                        <input type="radio" name="genero"><label for="">Feminino</label>
+                        <input type="radio" name="genero"><label for="">Outros</label>
+                        <input type="text" placeholder="outros" disabled>
+                    </div>
+                    <div class="classDiv">
+                        <label for="">Dt: Nascimento: </label>
+                        <input type="date" name="" id="">
+                        <label for="">Nacionalidade</label>
+                        <select name="" id="">
+                            <option value="">Selecione</option>
+                            <option value="">Brasil</option>
+                            <option value="">Paraguai</option>
+                            <option value="">Chile</option>
+                            <option value="">Venezuela</option>
+                            <option value="">Argentina</option>
+                            <option value="">Uruguai</option>
+                            <option value="">Guiana Inglesa</option>
+                            <option value="">Suriname</option>
+                            <option value="">Bolivia</option>
+                            <option value="">Colombia</option>
+                        </select>
+                        <select name="" id="" disabled>
+                            <option value="">Estados</option>
+                            <option value="">Amazonas</option>
+                            <option value="">São Paulo</option>
+                        </select>
+                    </div>
+                    <hr>
+                    <div class="classDiv">
+                        <label for="">CPF: </label>
+                        <input type="number" name="" id="">
+                        <label for="">RG: </label>
+                        <input type="number">
+                    </div>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Dados Login</legend>
+                    <div class="classDiv">
+                        <label for="">Usuário: </label>
+                        <input type="text" placeholder="Digite o nome de usuário">
+                        <label for="">Password: </label>
+                        <abbr title="Senha de 6 digitos alfanumérico">
+                            <input type="password" name="" id="" placeholder="Digite sua Senha">
+                        </abbr>
+                        <abbr title="Senha de 6 digitos alfanumérico">
+                            <input type="password" placeholder="Repita sua Senha">
+                        </abbr>
+                    </div>
+                </fieldset>
+                <div class="classDivB">
+                    <button class="botao" type="submit">Salvar</button>
+                    <button class="botao" type="reset">Limpar</button>
                 </div>
-                <div class="linhaBorda">
-                    <label for="">Gênero: </label>
-                    <input type="radio" name="genero"> Masculino
-                    <input type="radio" name="genero"> Feminino
-                    <input type="radio" name="genero"> Outros
-                    <input type="text" placeholder="outros" disabled>
+            </form>
+
+            <form class="separacao" action="">
+                <fieldset>
+                    <legend>Dados de Endereço</legend>
+
+                    <div class="classDiv">
+                        <label for="">CEP: </label>
+                        <input type="number" placeholder="Digite o seu CEP">
+
+                        <button class="botaoPesquisa">Pesquisar</button>
+                        <button class="botaoPesquisa">Editar</button>
+                    </div>
+
+                    <div class="classDiv">
+                        <Label>Logradouro: </Label>
+                        <input type="text" disabled>
+                        <label for="">Número: </label>
+                        <input type="text" disabled>
+                    </div>
+                    <div class="clssDiv">
+                        <label for="">Complemento: </label>
+                        <input type="text" disabled>
+                        <label for="">Cidade: </label>
+                        <input type="text" disabled>
+                        <label for="">UF: </label>
+                        <input type="text" disabled>
+
+                    </div>
+                </fieldset>
+                <div class="classDivB">
+                    <button class="botao" type="submit">Salvar</button>
+                    <button class="botao" type="reset">Limpar</button>
                 </div>
-                <div>
-                    <label for="">Dt: Nascimento: </label>
-                    <input type="date" name="" id="">
-                    <label for="">Nacionalidade</label>
-                    <select name="" id="">
-                        <option value="">Selecione</option>
-                        <option value="">Brasil</option>
-                        <option value="">Paraguai</option>
-                        <option value="">Chile</option>
-                        <option value="">Venezuela</option>
-                        <option value="">Argentina</option>
-                        <option value="">Uruguai</option>
-                        <option value="">Guiana Inglesa</option>
-                        <option value="">Suriname</option>
-                        <option value="">Bolivia</option>
-                        <option value="">Colombia</option>
-                    </select>
-                    <select name="" id="" disabled>
-                        <option value="">Estados</option>
-                        <option value="">Amazonas</option>
-                        <option value="">São Paulo</option>
-                    </select>
-                </div>
-                <hr>
-                <label for="">CPF: </label>
-                <input type="number" name="" id="">
-                <label for="">RG: </label>
-                <input type="number">
-            </fieldset>
-            <fieldset>
-                <legend>Dados Login</legend>
-                <div class="linhaBorda">
-                    <label for="">Usuario</label>
-                    <input type="text" placeholder="Digite o nome de usuário">
-                    <label for="">Password</label>
-                    <abbr title="Senha de 6 digitos alfanumérico">
-                        <input type="password" name="" id="" placeholder="Digite sua Senha">
-                    </abbr>
-                    <abbr title="Senha de 6 digitos alfanumérico">
-                        <input type="password" placeholder="Repita sua Senha">
-                    </abbr>
-                </div>
-            </fieldset>
-            <div class="">
-                <button class="botao" type="submit">Salvar</button>
-                <button class="botao" type="reset">Limpar</button>
-            </div>
-        </form>
-        
+            </form>
+
+        </div>
+
 
     </main>
     <footer>
-        <div id = "linkPe">
-            <a  href="https://www.google.com"><img class="espaco" src="/images/googleLogo-nuvem.png"  alt=""></a>
-            <a  href="https://www.youtube.com"><img class="espaco" src="/images/youTubeLogo.png"  alt=""></a>
+        <div id="linkPe">
+            <a href="https://www.google.com"><img class="espaco" src="/images/googleLogo-nuvem.png" alt=""></a>
+            <a href="https://www.youtube.com"><img class="espaco" src="/images/youTubeLogo.png" alt=""></a>
         </div>
-    
+
 
     </footer>
 
