@@ -37,7 +37,7 @@ label{
     padding: 0px 3px;
 }
 .corH1{
-    color: blue;
+    color: darkblue;
     padding: 5px;
 }
 .centro{
@@ -159,4 +159,7 @@ input[type="number"]:focus{
 input[type="password"]:focus{
     zoom: 1.1;
     border-radius: 3px;
+}
+::placeholder{
+    color: gray;
 }
