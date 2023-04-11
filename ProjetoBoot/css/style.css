@@ -1,3 +1,37 @@
-.meu{
-    background-color: blue;
+a{
+    text-decoration: none;
+    color: black;
+}
+a::after{
+    color: black;
+}
+main{
+    background-color: lightgrey;
+}
+.externo{
+    background-color: rgb(241,241, 241);
+    min-height: 100vh;
+    border: 1px solid darkgray;
+}
+
+span{
+    font-size: 14px;
+}
+h3{
+    font-size: 17px;
+    font-weight: 600;
+
+}
+.item{
+    border: 1px solid darkgray;
+    border-radius: 5px ;
+    padding: 2px;
+    margin: 5px;
+}
+hr{
+    margin: 0;
+}
+.item:hover{
+    zoom: 1.2;
+    background-color: rgb(222, 221, 221);
 }
