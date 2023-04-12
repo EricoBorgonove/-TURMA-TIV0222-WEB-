@@ -33,5 +33,6 @@ hr{
 }
 .item:hover{
     zoom: 1.2;
-    background-color: rgb(222, 221, 221);
+    background-color: black;
+    color:  white;
 }
